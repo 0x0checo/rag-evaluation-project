@@ -1,0 +1,5 @@
+dataset,method,ndcg@10,recall@100,map@10,p@10
+scifact,dense_bge,0.72,0.95333,0.67636,0.09533
+scifact,dense_e5,0.71943,0.96267,0.67307,0.09533
+scifact,hybrid_rrf_bm25+bge,0.7106,0.965,0.6677,0.09367
+scifact,bm25,0.66169,0.87589,0.61988,0.086
