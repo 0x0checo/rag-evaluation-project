@@ -1,0 +1,43 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# --- Virtual environments ---
+.venv/
+venv/
+ENV/
+env/
+
+# --- VSCode ---
+.vscode/
+!.vscode/settings.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# --- macOS ---
+.DS_Store
+
+# --- Secrets ---
+.env
+*.env
+
+# --- Project artifacts (big / reproducible) ---
+data_raw/
+indexes/
+storage/
+*.index
+*.faiss
+*.bin
+
+# --- Logs ---
+*.log
+

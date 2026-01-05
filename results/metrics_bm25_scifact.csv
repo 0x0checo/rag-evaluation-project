@@ -1,0 +1,2 @@
+dataset,method,ndcg@10,recall@100,map@10,p@10
+scifact,bm25,0.66169,0.87589,0.61988,0.086
