@@ -34,12 +34,14 @@ env/
 data_raw/
 storage/
 
-# By default ignore indexes, but allow the small demo indices we want to deploy
+# Ignore everything under indexes by default...
 indexes/*
+# ...but keep the small demo indices + id maps for deployment
 !indexes/faiss_scifact_bge.index
 !indexes/faiss_scifact_bge_docids.json
 !indexes/faiss_scifact_e5.index
 !indexes/faiss_scifact_e5_docids.json
+
 
 # --- Logs ---
 *.log
